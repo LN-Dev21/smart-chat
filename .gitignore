@@ -1,0 +1,23 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ===== 密钥（严禁提交）=====
+backend/.env
+
+# ===== 运行时数据（数据库文件）=====
+backend/data/
+
+# ===== Node =====
+node_modules/
+dist/
+
+# ===== 编辑器/系统 =====
+.vscode/
+.idea/
+.DS_Store
+
+# ===== 临时目录 =====
+_temp_keep/
